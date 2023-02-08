@@ -15,7 +15,7 @@ PORT = environ.get("PORT", "8080")
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '1923471'))
 API_HASH = environ.get('API_HASH', 'fcdc178451cd234e63faefd38895c991')
-BOT_TOKEN = environ.get('BOT_TOKEN', "6023399726:AAGZV_TJn9pEw5JxIMS0TXtT0SVmLoJKG7w")
+BOT_TOKEN = environ.get('BOT_TOKEN', "5831288690:AAHpDYbbK2wieqnKFq6bKIeuCBBAKOilkSE")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
@@ -37,9 +37,9 @@ AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_chan
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://video:video@cluster0.gp0rn.mongodb.net/?retryWrites=true&w=majority")
-DATABASE_NAME = environ.get('DATABASE_NAME', "asuranj")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AutofilterBot')
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://asuvarisubot:asuvarisubot@cluster0.xdigslk.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = environ.get('DATABASE_NAME', "asuvarisubot")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'asuvarisubot')
 
 # Channel Button Links
 GRP_LNK = environ.get('GRP_LNK', 'https://t.me/Asuranmoviefinder1')
@@ -85,8 +85,8 @@ SPL_DELETE_TIME = int(environ.get('SPL_DELETE_TIME', 15))
 
 # URL SHORTNER
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'urlcut.in')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '8b86060ef2d23dae464fafdadb0c9896fc364cf6')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'atglinks.com')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '8404b726a16f021cb55004cbeb99825182c29263')
 
 LOG_STR = "Current Cusomized Configurations are:-\n"
 LOG_STR += ("IMDB Results are enabled, Bot will be showing imdb details for you queries.\n" if IMDB else "IMBD Results are disabled.\n")
